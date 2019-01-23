@@ -1,0 +1,115 @@
+body{
+    margin-top: 0;
+    /* background: rgb(236, 236, 236);     */
+    background-image: url("../images/small_steps.png");
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#bar {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(72, 99, 129);     
+}
+#navMid{
+    width: 70%;
+    margin: auto;
+}
+#navMid h1{
+    font-family: 'Fjalla One', sans-serif;
+    display: inline;
+    color: whitesmoke;
+    background-color: rgba(136, 69, 69, 0.685); 
+    position: absolute;
+    padding: 22.5px;
+    margin: 0;   
+}
+#navList {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding-top: 1.5em;
+    text-align: center;     
+}
+#navList li{
+    font-family: 'Fjalla One', sans-serif;
+    display: inline;
+    padding-right: 10px;
+}
+a.navLink {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;      
+    text-decoration: none;     
+}
+#midBox{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(215, 217, 226);    
+}
+h1.title{
+    font-family: 'Oswald', sans-serif;
+    color: rgba(136, 69, 69, 0.938);
+    /* color: rgb(72, 99, 129);  */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px; 
+}
+p.about{    
+    float: inherit;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5em;
+    margin-top: 20px;
+    
+}
+#profPic{
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(136, 69, 69, 0.938);
+}
+h3{
+    color: rgba(136, 69, 69, 0.938);
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+input.inTitle{
+    width: 60%;
+}
+textarea{
+    height: 300px;
+    width: 60%;
+    margin-bottom: 5px;
+}
+#projects{
+    padding-bottom: 30px;
+}
+.pBox{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+a.projTitle{
+    text-decoration-line: none;    
+}
+div.pBox:hover{
+    background-color: rgba(104, 114, 172, 0.295);
+}
