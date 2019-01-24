@@ -113,3 +113,77 @@ a.projTitle{
 div.pBox:hover{
     background-color: rgba(104, 114, 172, 0.295);
 }
+@media screen and (max-width: 980px){
+    #midBox{
+        width: 70%;
+        float: left;
+    }
+    #navMid{
+        width: 100%;
+    }
+    #navList{
+        float: left;        
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #midBox{
+        width: 90%;
+        margin: auto;
+        float: initial;
+    }
+    #navMid{
+        width: 100%;
+    }
+    #navList{
+        float: left;        
+        margin-left: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    #bar{
+        height: 125px;
+    }
+    #midBox{
+        width: 90%;
+        margin: auto;
+        float: initial;
+    }
+    #navMid{
+        width: 100%;
+        height: 125px;
+        display: block;        
+    }
+    #navMid h1{
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #navList{    
+        margin: 0;
+        text-align: center;
+        padding-left: 0;
+        float: inherit;
+        padding-top: 10px
+    }
+    #navList li{
+        margin: 0;
+    }
+    .pBox{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
+    }
+
+    
+}
